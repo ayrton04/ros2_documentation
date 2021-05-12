@@ -27,12 +27,12 @@ It encompasses all executables and the connections between them if you were to m
 2 Nodes in ROS 2
 ^^^^^^^^^^^^^^^^
 
-Each node in ROS should be responsible for a single, module purpose (e.g. one node for controlling wheel motors, one node for controlling a laser range-finder, etc).
+Each node in ROS should be responsible for a single, modular purpose (e.g. one node for controlling wheel motors, one node for controlling a laser range-finder, etc).
 Each node can send and receive data to other nodes via topics, services, actions, or parameters.
 
 .. image:: Nodes-TopicandService.gif
 
-A full robotic system is comprised of many nodes working in concert.
+A full robotic system is composed of many nodes working in concert.
 In ROS 2, a single executable (C++ program, Python program, etc.) can contain one or more nodes.
 
 Prerequisites
